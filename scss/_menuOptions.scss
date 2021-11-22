@@ -1,0 +1,19 @@
+.effectImageHover:hover {
+     position: relative;
+    height: auto;
+     z-index: 999;
+     box-shadow: 0 4px 8px  $color__background-black , 0 6px 20px 0 $color__tittle-secondary;
+    text-align: center;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.titles-menu{
+    margin-top: 2rem;
+    color: $color__tittle-princial;
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    /*Not a  fan de este fuente*/
+    font-size: 1.5rem;
+    font-weight: bold;
+}

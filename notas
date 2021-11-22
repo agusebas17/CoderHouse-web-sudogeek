@@ -1,0 +1,47 @@
+# NOTAS
+
+Plugins: : AutoCloseTag; AutoRenameTag ;BacketPairColorirzer; Ident-Rainbow;HTML CSS Support;IntelliSense for CSS class names in HTML Live Server;Prettier
+
+https://drive.google.com/drive/u/0/folders/15n2hu-qww7r-MXwfva8AbAdzZhe-WWuW -> Drive
+
+Figma -> ?
+Acomodar mi git.
+
+Tipografia -> Google Fonts
+comentario html -> ctl k c <!--  -->
+
+Ejemplos: https://techexpert.tips/es/puppet-es/puppet-instalacion-en-ubuntu-linux/
+https://geekflare.com/es/
+https://entropy.net.ar/puppet/2020/06/27/Laboratorio-Puppet/
+https://drive.google.com/file/d/12nYVWOBQi3bYoc2C-I7iZMK5Uiqg71vb/view
+https://drive.google.com/file/d/1OPVqfHoAE_BNAVJVn6IcT8I5rany-6Ot/view
+https://htmlcheatsheet.com/css/
+https://www.quackit.com/css/examples/
+https://coderhouse.slack.com/files/U02GM6DLHCY/F02HSH1CENQ/dise__o_web_css3.pdf?origin_team=T02FYJW6U&origin_channel=C02EB7MDXDG
+
+https://www.madebymike.com.au/demos/flexbox-tester/ 
+
+https://visme.co/blog/website-color-schemes/
+Paleta de coolores: |#45A29E #66FCF1 #C5C6C7 #1F2833 #0B0C10
+
+On Linux Ctrl + Shift + I
+El “alt”, es un texto que debe representar la foto que se está visualizando. Debe ser conciso y breve, pero dejar en claro de qué se trata la imagen.
+
+bandcamp -> musica 
+## CSS
+ Entre el número y la unidad no pueden existir espacios
+ P{
+  propiedad1: red; 
+  propiedad2: #FF0000; 
+  propiedad3: rgb( 255, 0, 0 );     
+}
+
+
+cover flow:
+https://www.cssscript.com/cover-flow-card-carousel/
+
+Search:
+              <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>

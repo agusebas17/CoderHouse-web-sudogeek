@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sudogeek </title>
+        <link rel="stylesheet" href="../css/estilos.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+        <!-- Shortcuts, menu    -->
+        <nav>
+                <div class="headerBannerContainer">
+                        <div class="logoNombre">
+                                <h1 id="Inicio-Titulo"> SUDOGEEK.COM! </h1>
+                        </div>
+                        <div class="menuNavegador">
+                                <ul>
+                                        <li> <a href="./index.html#Inicio-Titulo"> INICIO</a> </li>
+                                        <li> <a href="guias.html"> GUIAS </a></li>
+                                        <ul>
+                                                <li> <a href=""> Linux </a></li>
+                                                <li> <a href=""> Windows </a></li>
+                                        </ul>
+                                        <li> <a href="noticias.html">NOTICAS</a> </li>
+                                        <li> <a href="acerca.html"> ACERCA </a> </li>
+                                </ul>
+                        </div>
+                </div>
+                <!-- Opciones principales de la pagina. Entiendo que esto no seria "titulos" si no bloques, quizas divs. -->
+                <div class="menuSeccionesPrincipales">
+
+                        <ul id="listaInline">
+                                <li> <a href="./guias.html"> Guias </a> </li>
+
+                                <li> <a href="./herramientas.html"> Herramientas </a> </li>
+
+                                <li><a href="./noticias.html">Noticias </a> </li>
+
+                                <li> <a href="./lecturas.html"> Lecturas recomendadas </a> </li>
+
+                        </ul>
+                </div>
+                <hr>
+                <div>
+                        <h2> Ultimos artculos </h2>
+                </div>
+                <!-- Visor de los ultimos aritulos-->
+                <div>
+                        <section>
+
+                        </section>
+                </div>
+                <hr>
+                <div>
+                        <h3> Contacto - Dudas, comentarios o presupuestos </h3>
+                </div>
+                <!-- La idea de este bloque es que el usuario se pueda comunicar para enviar dudas o nuevas ideas para guias, o en un futuro pedir presupuesto para siertos servicios de infrastrucutra (paginas web, servidores email, deployar algun servicio)-->
+
+                <div>
+                        <section>
+                                <p class="textoSimple">Indique aqui las posibles <strong>dudas </strong>,
+                                        <strong>guias</strong>
+                                        que quiera que armemos o si necesita que <strong>presupuestemos algun
+                                                servicio.</strong>
+
+                                </p>
+                                <div>
+                                        <form action="gracias_contacto.php" method="GET"
+                                                enctype="application/x-www-form-urlencoded">
+                                                <input type="text" name="nombre" placeholder="Nombre y Apellido" />
+                                                <input type="text" name="email" placeholder="Email de contacto" />
+                                                <textarea rows="4" cols="30"
+                                                        placeholder="Deje aqui su consulta"></textarea>
+                                                <br>
+                                                <input class="buttons" type="submit" value="Enviar Fromulario" />
+                                                <input class="buttons" type="reset" value="Reset Fromulario" /> <br>
+                                        </form>
+
+                        </section>
+                </div>
+                <hr>
+
+        </nav>
+        <footer id="pie">&copy; Copyright 2021 HTML.am</footer>
+</body>
+
+</html>

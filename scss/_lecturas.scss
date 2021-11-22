@@ -1,0 +1,79 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 400px 500px 400px 30px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.hedear {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.nav {
+    grid-area: 2 / 1 / 5 / 5;
+}
+
+.footer {
+    grid-area: 5 / 1 / 6 / 5;
+}
+
+.Secciones {
+    grid-area: 2 / 1 / 3 / 5;
+}
+
+.ultimos-articulos {
+    grid-area: 3 / 1 / 4 / 5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Contacto {
+    grid-area: 4 / 1 / 5 / 5;
+    padding-left: 2rem;
+}
+
+.Menu-Nav {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.Logo {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+html, body, .container {
+    height: 100%;
+    margin: 0;
+}
+.seccionesPadre {
+    display: flex;
+    flex-wrap: wrap;
+    // padding: 8rem;
+    flex-direction: column;
+    // padding-left: 2rem;
+    // padding-right: 2rem;
+    // margin: 0.1rem;
+    // justify-content: space-around;
+}
+
+.feature-container {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+    
+
+
+.feature-container p {
+    text-align: center;
+    line-height: 1.4;
+}
+
+.feature-container img {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
