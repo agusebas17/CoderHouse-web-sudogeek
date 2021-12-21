@@ -23,88 +23,146 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="description" content="Guias, noticias, herramientas para desarrollar conocimientos de sysadmin">
-    <meta name="keywords" content="HTML, ASP, JS, META, Linux, Puppet, Mariadb,Mysql, SQL, bash,python, guias, noticias">
-  
+    <meta name="keywords"
+        content="HTML, ASP, JS, META, Linux, Puppet, Mariadb,Mysql, SQL, bash,python, guias, noticias">
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark2">
-          <h1> <a href="#">SUDOGEEK</a></h1>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="ml-auto Menu-Nav">
-            <div class="menuNavegador">
-              <ul>
-                <li> <a href="./index.html#Inicio-Titulo"> INICIO</a> </li>
-                <li> <a href="lecturas.html"> LECTURAS </a></li>
-                <li> <a href="noticias.html">NOTICAS</a> </li>
-                <li> <a href="acerca.html"> ACERCA </a> </li>
-              </ul>
+            <h1> <a href="#">SUDOGEEK</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="ml-auto Menu-Nav">
+                <div class="menuNavegador">
+                    <ul>
+                        <li> <a href="./index.html#Inicio-Titulo"> INICIO</a> </li>
+                        <li> <a href="lecturas.html"> LECTURAS </a></li>
+                        <li> <a href="noticias.html">NOTICAS</a> </li>
+                        <li> <a href="acerca.html"> ACERCA </a> </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
+    </header>
     <div class="container">
 
-        <div class="nav">
-            <h2 class="subTitulosPaginas">Guias</h2>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Seamlessly visualize quality</h3>
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                    <button>Here's why</button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Completely Synergize</h3>
-                    <p>Dramatically engage seamlessly visualize quality intellectual capital without superior
-                        collaboration and idea-sharing.</p>
-                    <button>Here's how</button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Dynamically Procrastinate</h3>
-                    <p>Completely synergize resource taxing relationships via premier niche markets.</p>
-                    <button>Read more</button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Best in class</h3>
-                    <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
-                    <button>Just do it...</button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Dynamically innovate supply chains</h3>
-                    <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
-                    <button>Here's why</button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="http://fakeimg.pl/300/?text=1" alt="Sample photo">
-                <div class="text">
-                    <h3>Sanity check</h3>
-                    <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
-                    <button>Stop here</button>
-                </div>
-            </article>
+        <div class="titles-menu">
+            <h1>
+                10 Linux Tools to Know as Sysadmin
+            </h1>
         </div>
-        <div class="footer">
-            <footer>&copy; Copyright 2021 HTML.am</footer>
-        </div>
+        <p class="text-center">Sooner or later, all system administrators face the challenge of administering servers.
+        </p>
+        <p class="text-md-start">Tools come to rescue the sysadmin’s life.
+
+            As a sysadmin, you just don’t work on core OS (Linux or Windows) but also deals with what is hosted on them.
+            It could be a database, application server, web server, messaging applications, caching, etc. The following
+            tools should help you in many ways.</p>
+         <h2 class="guides">Zenmap</h2>
+        <p class="text-md-center"> When you need to discover network-related issues, Zenmap will come to the rescue. It
+            is not a tool you’ll use daily to administer your system, but it will prove to be invaluable when the need
+            to scan the network to troubleshoot issues arises.
+
+            It is a front end for the Nmap network scanner that not only runs on Linux but also in Windows, BSD, other
+            versions of Unix, and macOS. Besides network scanning, Zenmap can be used for penetration testing and port
+            scanning, either by experienced or beginner sysadmins.</p>
+         <img class="guides" src="../images/zenmap.web" alt="">
+        <p class="text-md-center"> Zenmap can store profiles, which certainly is one of its strengths. These profiles
+            can be reused for later
+            scans.</p>
+         <h2 class="guides">Webmin</h2>
+        <p class="text-md-center">This one-stop-shop tool offers a web-based interface for administering every aspect of
+            a Linux server. From
+            file sharing to DNS, to Apache web server and various databases. If you need something that is not included
+            in the default package, you can pick one from a huge catalog of third-party modules that bring added
+            functionality.</p>
+         <img class="guides" src="../images/Webmin.jpg" alt="">
+        <p class="text-md-center">You just have to download the latest version and copy it to the server’s home folder.
+            After that, you simply
+            run the command: dpkg -i webmin_(version).deb. And that’s all.</p>
+         <h2 class="guides"> Cockpit</h2>
+        <p class="text-md-start">Cockpit is another server administration tool. It stands out for being
+            “beginner-friendly”: it is easy to use, lightweight and simple, yet very powerful. It offers a web-based GUI
+            that facilitates storage admin tasks, service starting/stopping, journal inspection, and multi-server setup
+            management.
+
+            The tool was created for Red Hat, but it runs on many Linux server distributions, besides Red Hat Enterprise
+            Linux (RHEL): Fedora, Arch Linux, Ubuntu, CentOS, among others.</p>
+         <img class="guides" src="../images/cockpit-project.webp" alt="">
+        <p class="text-md-center">The installation procedure varies for each distribution. In some distributions, like
+            Fedora, CentOS and RHEL, Cockpit can be found in the official repositories. In others, like Debian, Ubuntu,
+            and Linux Mint, you can install Cockpit from its official PPA.</p>
+
+         <h2 class="guides">GPing</h2>
+        <p class="text-md-center">A fantastic graph-based PING utility. The great thing is, gping lets you visualize
+            multiple endpoints ping in a real-time graph.</p>
+         <img class="guides" src="../images/gping.webp" alt="">
+        <p class="text-md-center">This can be a great choice when you have to compare the ping latency for two or more
+            URLs. You can ping IPv4 or IPv6 address and the installer are available for Ubuntu, CentOS, macOS, and
+            Windows.</p>
+         <h2 class="guides">ShoreWall</h2>
+        <p class="text-md-center">This tool adds an abstraction layer for achieving a higher-level configuration of
+            Netfilter. Shorewall reads configuration files and configures Netfilter in the Linux kernel, with the
+            support of the ip, tc, iptables, and iptables-restore utilities. The advantage of using Shorewall is that it
+            divides the interfaces into zones, assigning different levels of access to each one.</p>
+         <img class="guides" src="../images/Shorewall.webp" alt="">
+        <p class="text-md-center">It allows the user to operate on groups of computers connected to the interface,
+            instead of working on groups of addresses. Users can easily deploy different policies for each zone.</p>
+         <h2 class="guides">Nagios</h2>
+        <p class="text-md-center">This open-source network monitoring tool was launched in 2002 under the name NetSaint.
+            Since then, Nagios has gone a long way, awarding itself a strong reputation for doing a great job monitoring
+            servers and network devices. It works well out of the box when it is given the task to monitor an
+            environment with many basic protocols. Nagios also provides a base for other monitoring utilities, such as
+            Naemon, Icinga, and OP5.</p>
+         <img class="guides" src="../images/Nagios.webp" alt="">
+        <p class="text-md-center">
+            Nagios got great documentation for you to get it started.
+        </p>
+         <h2 class="guides">phpMyAdmin</h2>
+        <p class="text-md-center">For those who also have to deal with database maintenance, phpMyAdmin is a classic and
+            very popular tool. The main reason for its popularity is perhaps its portability. phpMyAdmin runs in a web
+            browser, which means you can use it from any device, even from a smartphone. Another reason is that it
+            covers all the necessary functions required to manage the database, and you practically don’t have to know
+            how to write queries in SQL to do that.</p>
+         <img class="guides" src="../images/phpMyAdmin.webp" alt="">
+         <h2 class="guides">Puppet</h2>
+        <p class="text-md-center">To manage the growing number of servers that run on a corporate network, as a Linux
+            admin, you will need the best-of-breed tools to do orchestration and configuration management. One of these
+            tools is Puppet, a complete one when you take into account user interfaces, modules and available actions.
+        </p>
+         <img class="guides" src="../images/Puppet.webp" alt="">
+        <p class="text-md-center">Puppet not only shows you the whole picture of the Linux server ecosystem but also
+            includes almost any other operating system that may be operating in the network, giving you a deep insight
+            into each one. Installation is easy.</p>
+         <h2 class="guides">Mysql WorkBench</h2>
+        <p class="text-md-center">For those of you who need to manage MySQL databases but don’t like web-based GUIs,
+            feeling more comfortable with traditional windowed apps, then MySQL Workbench is your tool. The bright side
+            of this app is that it installs very simple and has an easy to use graphical interface, grouping every MySQL
+            task you may need to perform.</p>
+         <img class="guides" src="../images/MySQL-Workbench.webp" alt="">
+        <p class="text-md-center">It offers some interesting goodies, such as unlimited undo/redo, multiple MySQL
+            connections and visual modeling of data and schema. It can also be automated through scripting and extended
+            via plugins. The only drawback of MySQL Workbench is that, unlike phpMyAdmin, to master it you need deep
+            knowledge of SQL.</p>
+         <h2 class="guides">Nmap</h2>
+        <p class="text-md-center">Network administrators have many options when they need to choose a monitoring tool
+            capable of doing network mapping and port scanning. Among them, the de facto standard is Nmap, due to its
+            combination of usability and versatility. Network admins use it for network discovery and vulnerability
+            detection. It can scan all available hosts in the network, making a list of all the services they provide.
+
+            In this way, the administrator can find open ports and take appropriate measures to reduce security risks.
+        </p>
+         <img class="guides" src="../images/Nmap.webp" alt="">
+        <p class="text-md-center"></p>
     </div>
+    <div class=" container-fluid text-center text-md-left">
+        <footer class="page-footer font-small teal pt-4">&copy; Copyright 2021 HTML.am</footer>
+    </div>
+
 </body>
 
 </html>
