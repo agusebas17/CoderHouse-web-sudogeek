@@ -223,3 +223,23 @@ html {
     flex: 3; }
   .nested-column {
     flex: 2; } }
+
+ul.tools {
+  list-style: decimal-leading-zero;
+  color: #C5C6C7;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif; }
+
+.titles-menu {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+h2.guides {
+  font-size: large; }
+
+img.guides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5rem; }

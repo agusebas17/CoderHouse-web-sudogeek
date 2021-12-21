@@ -28,7 +28,7 @@
 <bod>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark2">
-          <h1> <a href="#">SUDOGEEK</a></h1>
+          <h1> <a href="./index.html">SUDOGEEK</a></h1>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,61 +45,83 @@
           </div>
         </nav>
       </header>
-      
-    <div class="container">
-        <!-- Secciones de la web -Imagenes  y texto temporales -->
-        <div class="Secciones">
-            <section class="seccionesPadre">
-                <div class="feature-container">
-                    <a href="guias.html"><img
-                            src="https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
-                            class="effectImageHover" alt="Flexbox Feature"></a>
-                    <a href="herramientas.html#descargables">
-                        <h2>DESCARGABLES</h2>
-                    </a>
-                    <p>This pen contains use of flexbox for the headline and feature section! We use it in our
-                        mobile
-                        navbar and show the power of mixing css grid and flexbox.</p>
-                </div>
-                <div class="feature-container">
-                    <a href="herramientas.html"><img
-                            src="https://blog.webix.com/wp-content/uploads/2017/06/20170621-CSS-Grid-Layout-710x355-tiny.png"
-                            class="effectImageHover" alt="Flexbox Feature"></a>
-                    <a href="herramientas.html#onlineTools">
-                        <h2>HERRAMIENTAS ONLINE</h2>
-                    </a>
-                    <p>While flexbox is used for the the mobile navbar, CSS grid is used for the desktop navbar
-                        showing
-                        many ways we can use both.</p>
-                </div>
-                <div class="feature-container">
-                    <a href="herramientas.html#cliTips"><img
-                            src="https://blog.webix.com/wp-content/uploads/2017/06/20170621-CSS-Grid-Layout-710x355-tiny.png"
-                            class="effectImageHover" alt="Flexbox Feature"></a>
-                    <a href="lecturas.html">
-                        <h2>COMMAND LINE</h2>
-                    </a>
-                    <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
-                </div>
-            </section>
-        </div>
+      <div class="container marketing">
 
+        <!-- Three columns of text below the carousel -->
+        <div class="row fixed">
+          <div class="col-lg-4">
+            <a href="./herramientas.html#descargables">
+              <img class="rounded-circle effectImageHover" src="../images/download.png"
+                alt="Generic placeholder image effectImageHover " width="140" height="140">
+            </a>
+            <h2 class="titles-menu">Descargables</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+              vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <a href="./herramientas.html#onlineTools">
+              <img class="rounded-circle effectImageHover" src="../images/settings2.png" alt="Generic placeholder image "
+                width="140" height="140">
+            </a>
+            <h2 class="titles-menu">herramientas Online</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+              mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+              condimentum nibh.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <a href="./herramientas.html#cliTips">
+              <img class="rounded-circle effectImageHover" src="../images/command-line.png"
+                alt="Generic placeholder image effectImageHover" width="140" height="140">
+            </a>
+            <h2 class="titles-menu">Command Line</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+              felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+              massa justo sit amet risus.</p>
     </div>
     <div class="containerHerramientasSecciones">
         <div class="sec1x1">
             <h3 id="descargables"> Descargables</h3>
             <section>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <ul class="tools">
+                    <li>
+                        <a href="https://ubuntu.com/download/desktop"> Ubuntu ISO</a>
+                    </li>
+                    <li>
+                        <a href="https://code.visualstudio.com/docs/?dv=linux64_deb"> VSC</a>
+                    </li>
+                    <li>
+                        <a href="https://hub.docker.com/"> Docker Images</a>
+                    </li>
+                    <li>
+                        <a href="https://www.terraform.io/downloads"> Terraform</a>
+                    </li>
+                    <li>
+                        <a href="https://rufus.ie/en/"> Rufus USB</a>
+                    </li>
+                </ul>
             </section>
         </div>
         <div class="sec2x1">
             <h3 id="onlineTools"> Herramientas Online</h3>
             <section>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <ul class="tools">
+                    <li>
+                        <a href="https://www.whatismyip.com/es/""> ¿Cual es mi IP publica?</a>
+                    </li>
+                    <li>
+                        <a href="https://www.digicert.com/help/"> Check Certificado SSL</a>
+                    </li>
+                    <li>
+                        <a href="https://mxtoolbox.com/DnsLookup.aspx"> DNS Lookup</a>
+                    </li>
+                    <li>
+                        <a href="https://mxtoolbox.com/MXLookup.aspx"> MX Lookup</a>
+                    </li>
+                    <li>
+                        <a href="https://rufus.ie/en/"> Rufus USB</a>
+                    </li>
+                </ul>
             </section>
         </div>
       
@@ -107,9 +129,23 @@
         <div class="sec3x1">
             <h3 id="cliTips"> Command Line </h3>
             <section>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <ul class="tools">
+                    <li>
+                        <a href="https://mobaxterm.mobatek.net/"> MobaXterm</a>
+                    </li>
+                    <li>
+                        <a href="https://cmder.net/"> CMDer</a>
+                    </li>
+                    <li>
+                        <a href="https://www.cygwin.com/"> Cygwin/a>
+                    </li>
+                    <li>
+                        <a href="https://terminator-gtk3.readthedocs.io/en/latest/"> Terminator</a>
+                    </li>
+                    <li>
+                        <a href="https://gnunn1.github.io/tilix-web/"> Tilix Terminal</a>
+                    </li>
+                </ul>
             </section>
 
         </div>
